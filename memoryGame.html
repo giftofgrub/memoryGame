@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memoryGame.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://www.petakids.com/wp-content/uploads/2014/06/game-elephants.jpg" alt="" id="gamepic">
+            <div>
+                    Number of pairs: <input type="number" name="Number of Pairs" min="1" max="12" id="numPairs" value="6">
+            </div>
+            <button> Start Game!</button>
+        </div>  
+    </header>
+
+    <div id="gameinfo">
+        <div id="attempts">Attempts: </div>
+        <div id="matches">Matches: </div>
+        <div id="timer">Elapsed Time: </div>
+        
+    </div>
+
+    <div>
+        <div class="container" id="card_table">
+            
+        </div>
+    </div>
+
+    <div>
+        <div class="container">
+            <form action="#" id="highscore">
+                <h3>You Won!</h3>
+                Name: 
+                <input type="text" id="name"><input type="submit">
+            </form>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+
+    <script src="memoryGame.js"></script>
+</body>
+</html>
